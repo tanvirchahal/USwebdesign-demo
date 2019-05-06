@@ -1,0 +1,67 @@
+/*
+Error: Undefined variable: "$add-list-reset-settings".
+        on line 35 of scss/utilities/rules/add-list-reset.scss
+
+30:           'margin-top': '0',
+31:           'padding-left': '0',
+32:         ),
+33:       ),
+34:     ),
+35:     settings: $add-list-reset-settings,
+36:     property: 'list-style',
+37:     type: 'object',
+38:   )
+39: );
+
+Backtrace:
+scss/utilities/rules/add-list-reset.scss:35
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/map_literal.rb:53:in `block in _perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/map_literal.rb:52:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/map_literal.rb:52:in `_perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/map_literal.rb:53:in `block in _perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/map_literal.rb:52:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/map_literal.rb:52:in `_perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:478:in `visit_variable'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/exec/base.rb:50:in `parse'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/lib/sass/exec/base.rb:18:in `parse!'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.3/bin/sass:13:in `<top (required)>'
+C:/Ruby25-x64/bin/sass:23:in `load'
+C:/Ruby25-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$add-list-reset-settings\".\A         on line 35 of scss/utilities/rules/add-list-reset.scss\A \A 30:           'margin-top': '0',\A 31:           'padding-left': '0',\A 32:         ),\A 33:       ),\A 34:     ),\A 35:     settings: $add-list-reset-settings,\A 36:     property: 'list-style',\A 37:     type: 'object',\A 38:   )\A 39: );"; }
